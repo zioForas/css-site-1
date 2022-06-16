@@ -1,0 +1,104 @@
+body{
+    background-color: #f4f4f4;
+    color: rgb(44, 40, 40);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    ;
+}
+.container p{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    ;
+}
+#main-header{
+    background-color: rgba(50, 60, 202, 0.973);
+    color: #fff;
+}
+#navbar{
+   background-color: #333;
+   color: #fff; 
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color:#fff;
+    text-decoration: none;
+    font-size:19px ;
+
+}
+
+#showcase{
+    background-image: url(/sitoso/css/images/showcase.jpg);
+    line-height: 4.3em;
+    background-position: center right;
+    min-height:300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showcase h1{
+    color: rgb(218, 218, 218);
+}
+
+#showcase h1{
+    color: #fff;
+    font-size: 50px;
+    list-style: 1.6em;
+    padding-top:30px;
+
+}
+
+#main{
+    float:left;
+    width:70%;
+    padding:0 30px;
+    box-sizing: border-box;
+}
+#main{
+    float:left;
+    width:70%;
+    padding:0 30px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float:right;
+    width:30%;
+    background: #333;
+    color:#fff;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+
+#main-footer{
+    background: #333;
+    color:#fff;
+    text-align: center;
+    padding:20px;
+    margin-top:40px;             
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:50px;   /* Height of the footer */
+}
+
+
+@media(max-width:600px){
+    #main{
+     width:100%;
+     float:none;   
+    }
+}
